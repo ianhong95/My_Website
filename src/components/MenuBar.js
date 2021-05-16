@@ -13,6 +13,7 @@ const MenuBar = () => {
                 <div className="collapse navbar-collapse" id="navbarResponsive">
                     <ul className="navbar-nav ml-auto">
                     <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#Skills">Skills</a></li>
                     <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
                     <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
                     </ul>

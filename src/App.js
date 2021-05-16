@@ -1,18 +1,17 @@
-import logo from './logo.svg';
-// import './App.css';
-// import './css/styles.css'
-import Landing from './components/MenuBar';
+import MenuBar from './components/MenuBar';
 import Header from './components/Header';
 import About from './components/About';
+import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+// import { useState } from 'react'
 
 function App() {
 
   return (
     <div id='page-top'>
-      <Landing />
+      <MenuBar />
 
       <header className="masthead">
         <Header />
@@ -20,6 +19,10 @@ function App() {
 
       <section className="about-section text-center" id="about">
         <About />
+      </section>
+
+      <section className="about-section text-center" id="skills">
+        <Skills />
       </section>
       
       <section className="projects-section bg-dark" id="projects">

@@ -6,10 +6,9 @@ const About = () => {
           <div className="row">
             <div className="col-lg-8 mx-auto">
               <h2 className="text-white mb-4">About Me</h2>
-              <p className="text-white-50">
-                Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right now, simply download the template on
-                <a href="https://startbootstrap.com/theme/grayscale/">the preview page</a>
-                . The theme is open source, and you can use it for any purpose, personal or commercial.
+              <p className="text-white-50-left">
+                Hi, I'm Ian. I studied Mechanical Engineering at McMaster University, and have always had a strong interest in automation.
+                I've recently discovered my love for coding through experimental projects in my free time. I find joy in building things, whether it be silly robots or scripts/programs for automation.
               </p>
             </div>
           </div>

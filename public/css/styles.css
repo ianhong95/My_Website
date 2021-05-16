@@ -10020,6 +10020,11 @@ a.text-black:hover, a.text-black:focus {
   color: rgba(255, 255, 255, 0.5) !important;
 }
 
+.text-white-50-left {
+  color: rgba(255, 255, 255, 0.5) !important;
+  text-align: left
+}
+
 .text-hide {
   font: 0/0 a;
   color: transparent;
@@ -10149,7 +10154,7 @@ body {
 
 #mainNav {
   min-height: 3.5rem;
-  background-color: rgb(223, 54, 54);
+  background-color: rgb(26, 26, 26);
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
@@ -10281,6 +10286,7 @@ body {
 
 .about-section {
   padding-top: 10rem;
+  height: 100%;
   background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
 }
 .about-section p {
@@ -10372,4 +10378,25 @@ body {
 
 .footer {
   padding: 5rem 0;
+}
+
+/* Utility */
+.fade-in {
+  transition: opacity 1s ease;
+  color: rgba(255, 255, 255, 0.5) !important;
+  margin-top: 0.5rem !important;
+  margin-bottom: 3rem !important;
+  text-align: center !important;
+  margin-left: auto;
+  margin-right: auto
+}
+.fade-out {
+  opacity: 0;
+  transition: opacity 1s ease;
+  color: rgba(255, 255, 255, 0.5) !important;
+  margin-left: auto !important;
+  margin-right: auto;
+  margin-top: 0.5rem !important;
+  margin-bottom: 3rem !important;
+  text-align: center !important
 }
