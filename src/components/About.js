@@ -12,7 +12,7 @@ const About = () => {
               </p>
             </div>
           </div>
-          <img className="img-fluid" src="assets/img/ipad.png" alt="..." />
+          <img className="img-fluid" src="assets/img/techbg.jpg" alt="..." />
         </div>
         
     )

@@ -1,6 +1,6 @@
 import { React, PropTypes } from 'react'
 
-const FeaturedProject = ({ title, text, img}) => {
+const FeaturedProject = ({title, text, skills, img}) => {
 
     var path = "assets/img/".concat(img);
 
@@ -9,12 +9,15 @@ const FeaturedProject = ({ title, text, img}) => {
             <div className="col-xl-8 col-lg-7">
                 <img className="img-fluid mb-3 mb-lg-0" src={path} alt="..." />
             </div>
-                <div className="col-xl-4 col-lg-5">
-                    <div className="featured-text text-center text-lg-left">
-                        <h4>{title}</h4>
-                        <p className="text-white-50 mb-0">{text}</p>
-                    </div>
+            <div className="col-xl-4 col-lg-5">
+                <div className="featured-text text-center text-lg-left">
+                    <h4>{title}</h4>
+                    <p className="text-white-50 mb-0">{text}</p>
+                    <br></br>
+                    <br></br>
+                    <p className="text-white-50 mb-0">{skills}</p>
                 </div>
+            </div>
         </div>
     )
 };
