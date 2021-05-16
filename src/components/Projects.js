@@ -6,6 +6,11 @@ import Project2 from './Project2.js';
 const Projects = () => {
     return (
 		<div className="container">
+			<div className="col-lg-2 mx-auto">
+				<h2 className="text-white mb-4">Projects</h2>
+				<br></br>
+			</div>
+			
 			{/* Featured Project Row*/}
 			<FeaturedProject 
 				title="Face-Following Camera"
