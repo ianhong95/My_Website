@@ -5,15 +5,15 @@ const Project2 = ({title, text, skills, img}) => {
     var path = "assets/img/".concat(img)
 
     return (
-        <div class="row justify-content-center no-gutters">
-            <div class="col-lg-6"><img class="img-fluid" src={path} alt="..." /></div>
-                <div class="col-lg-6 order-lg-first">
-                    <div class="bg-black text-center h-100 project">
-                        <div class="d-flex h-100">
-                            <div class="project-text w-100 my-auto text-center text-lg-right">
-                                <h4 class="text-white">{title}</h4>
-                                <p class="mb-0 text-white-50">{text}</p>
-                                <hr class="d-none d-lg-block mb-0 mr-0" />
+        <div className="row justify-content-center no-gutters">
+            <div className="col-lg-6"><img className="img-fluid" src={path} alt="..." /></div>
+                <div className="col-lg-6 order-lg-first">
+                    <div className="bg-black text-center h-100 project">
+                        <div className="d-flex h-100">
+                            <div className="project-text w-100 my-auto text-center text-lg-right">
+                                <h4 className="text-white">{title}</h4>
+                                <p className="mb-0 text-white-50">{text}</p>
+                                <hr className="d-none d-lg-block mb-0 mr-0" />
                                 <br></br>
                                 <p className="mb-0 text-white-50">{skills}</p>
                             </div>

@@ -29,7 +29,7 @@ function App() {
         <Projects />
       </section>
 
-      <section class="contact-section bg-dark" id="contact">
+      <section className="contact-section bg-dark" id="contact">
         <Contact />
       </section>
 

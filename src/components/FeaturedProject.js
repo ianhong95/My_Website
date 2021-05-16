@@ -3,7 +3,7 @@ import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
 import ProjectInfo from './ProjectInfo'
 
-const FeaturedProject = ({title, text, skills, img}) => {
+const FeaturedProject = ({ title, text, skills, img }) => {
 
     var path = "assets/img/".concat(img);
 
