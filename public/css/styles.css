@@ -474,8 +474,9 @@ mark,
 }
 
 .img-fluid {
-  max-width: 100%;
+  max-width: 60%;
   height: auto;
+  margin-bottom: 12%;
 }
 
 .img-thumbnail {
@@ -10380,7 +10381,73 @@ body {
   padding: 5rem 0;
 }
 
+/* Skills */
+.skills-section {
+  padding-top: 6rem;
+  padding-bottom: 5px;
+  height: 100%;
+  background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+}
+
+.skills-container {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.skill-button {
+  padding: 0.75rem 1rem;
+  height: 60px;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: rgba(0, 0, 0, 0.151);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 0.5rem;
+  color: rgba(255, 255, 255, 0.418);
+  margin-left: 20px;
+  vertical-align: center;
+  transition: 0.5s;
+}
+
+.skill-button:hover {
+  background-color:rgba(216, 217, 219, 0.5);
+  color: white;
+}
+
+.skill-img-container {
+  margin-top: 2%;
+  width: 100vh;
+  height: 55vh;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.skill-img {
+  margin-top: auto;
+  margin-bottom: auto;
+  max-width: 100%;
+  max-height: 100%;
+  animation: fadeIn linear 7s;
+}
+
+
+.skill-hr {
+  color: rgb(255, 255, 255);
+  height: 5px;
+  background-color: rgba(0,0,0,0);
+}
+
 /* Utility */
+.vertical-spacer {
+  height: 5rem;
+}
+
 .fade-in {
   transition: opacity 1s ease;
   color: rgba(255, 255, 255, 0.5) !important;
