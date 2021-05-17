@@ -1,4 +1,5 @@
 import { React, useState, useEffect } from 'react'
+import { Link, animateScroll as scroll } from "react-scroll";
 
 const Header = () => {
 
@@ -35,7 +36,15 @@ const Header = () => {
           <div className="mx-auto text-center">
             <h1 className="mx-auto my-0 text-uppercase">Ian Hong</h1>
             <h2 className={fadeProp.fade}>{ textBank[counter] }</h2>
+            <Link
+                        activeClass="active" 
+                        to="about"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}>
             <a className="btn btn-primary js-scroll-trigger" href="#about">Get To Know Me</a>  
+            </Link>
           </div>
         </div>
     )
