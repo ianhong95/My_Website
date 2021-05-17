@@ -16,6 +16,12 @@ const SkillButton = ({text, img}) => {
                         document.getElementById("skillBg").remove()
                         document.getElementById("skill-img-container").appendChild(skill_img)
                     }
+                }}
+                onClick={()=>{
+                    if (document.getElementById("skillBg") != null)  {
+                        document.getElementById("skillBg").remove()
+                        document.getElementById("skill-img-container").appendChild(skill_img)
+                    }
                 }}>{text}</button>
         </div>
     )

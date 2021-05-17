@@ -3994,7 +3994,7 @@ input[type=button].btn-block {
 }
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
-  color: #495057;
+  color: #ffffff;
   background-color: #fff;
   border-color: #dee2e6 #dee2e6 #fff;
 }
@@ -4348,7 +4348,7 @@ input[type=button].btn-block {
   color: rgba(0, 0, 0, 0.9);
 }
 .navbar-light .navbar-nav .nav-link {
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(255, 255, 255, 0.5);
 }
 .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
   color: rgba(0, 0, 0, 0.7);
@@ -9930,6 +9930,7 @@ button.bg-black:focus {
 
 .text-white {
   color: #fff !important;
+  text-align: center;
 }
 
 .text-primary {
@@ -10184,7 +10185,7 @@ body {
     padding-top: 0;
     padding-bottom: 0;
     border-bottom: none;
-    background-color: transparent;
+    background-color: rgba(52, 58, 64, 0.75);
     transition: background-color 0.3s ease-in-out;
   }
   #mainNav .navbar-brand {
@@ -10286,7 +10287,7 @@ body {
 
 .about-section {
   padding-top: 10rem;
-  height: 100%;
+  height: 100vh;
   background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
 }
 .about-section p {
@@ -10294,9 +10295,10 @@ body {
 }
 
 .about-img {
-  max-width: 60%;
-  height: auto;
-  margin-bottom: 12%;
+  /* max-width: 60%; */
+  /* height: auto; */
+  max-height: 50vh;
+  margin-bottom: 1%;
 }
 
 .projects-section {
@@ -10388,20 +10390,25 @@ body {
 
 /* Skills */
 .skills-section {
-  padding-top: 6rem;
-  padding-bottom: 5px;
-  height: 100%;
+  padding-top: 7.5%;
+  padding-bottom: 10%;
+  height: 100vh;
+  /* max-width: 100%; */
+  width: auto;
   background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
 }
 
 .skills-container {
   display: flex;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  max-width: 100%;
+  margin-top: 1%;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-bottom: 1%;
   justify-content: center;
   align-items: center;
-  margin-right: auto;
-  margin-left: auto;
+  /* margin-right: auto;
+  margin-left: auto; */
 }
 
 .skill-button {
@@ -10425,8 +10432,7 @@ body {
 
 .skill-img-container {
   margin-top: 2%;
-  width: 100vh;
-  height: 55vh;
+  margin-bottom: 5%;
   align-items: center;
   justify-content: center;
   margin-left: auto;
@@ -10436,8 +10442,8 @@ body {
 .skill-img {
   margin-top: auto;
   margin-bottom: auto;
-  max-width: 100%;
-  max-height: 100%;
+  max-width: 80vh;
+  max-height: 50vh;
   animation: fadeIn linear 1s;
 }
 

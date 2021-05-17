@@ -20,7 +20,7 @@ const Contact = () => {
                         <i className="fas fa-envelope text-primary mb-2"></i>
                         <h4 className="text-uppercase m-0">Email</h4>
                         <hr className="my-4" />
-                        <div className="small text-black-50"><a href="#!">ianqyhong@gmail.com</a></div>
+                        <div className="small text-black-50"><a href="mailto:ianqyhong@gmail.com">ianqyhong@gmail.com</a></div>
                     </div>
                 </div>
             </div>
@@ -36,9 +36,8 @@ const Contact = () => {
             </div>
         </div>
         <div className="social d-flex justify-content-center">
-            <a className="mx-2" href="#!"><i className="fab fa-twitter"></i></a>
-            <a className="mx-2" href="#!"><i className="fab fa-facebook-f"></i></a>
-            <a className="mx-2" href="#!"><i className="fab fa-github"></i></a>
+            <a className="mx-2" href="https://linkedin.com/in/ianhong95" target="_blank"><i className="fab fa-linkedin"></i></a>
+            <a className="mx-2" href="https://github.com/ianhong95" target="_blank"><i className="fab fa-github"></i></a>
         </div>
     </div>
     )

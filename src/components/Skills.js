@@ -85,11 +85,11 @@ const Skills = () => {
 			<hr className="skill-hr"></hr>
 			<div className="skill-img-container" id="skill-img-container">
 
-			<img
-				className="skill-img" 
-				src={defaultImg} 
-				alt="..." 
-				id="skillBg"/>
+				<img
+					className="skill-img" 
+					src={defaultImg} 
+					alt="..." 
+					id="skillBg"/>
 
 			</div>
 			<div className="vertical-spacer"></div>

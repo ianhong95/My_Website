@@ -17,21 +17,21 @@ const Projects = () => {
 				text="This was my first endeavor involving machine vision. The Raspberry Pi-controlled robot uses OpenCV to process images and detect faces using a Haar cascade classifier. Servo motors are then triggered through the I2C interface to attempt to align the camera with the face."
 				skills="Python, computer vision, SolidWorks, 3D printing"
 				img="techbg.jpg"
-				linkTo="/featured"/>
+			/>
 			{/* Project One Row*/}
 			<Project1 
 				title="3D Printer Enclosure"
 				text="Using the popular IKEA LACK table enclosure as inspiration, I built my own rendition using fully custom parts."
 				skills="SolidWorks, 3D printing"
 				img="techbg.jpg"
-				linkTo="/project1"/>
+			/>
 			{/* Project Two Row*/}
 			<Project2
 				title="Bluetooth-Controlled Arduino Car"
 				text="A fully 3D-printed car running on an Arduino Nano with a bluetooth module for remote control."
 				skills="SolidWorks, 3D printing, C++"
 				img="techbg.jpg"
-				linkTo="/project2"/>
+			/>
 		</div>
     )
 }

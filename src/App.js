@@ -5,7 +5,6 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import { Link, animateScroll as scroll } from "react-scroll";
 
 function App() {
 
