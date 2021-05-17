@@ -1,4 +1,6 @@
 import React from 'react'
+import Popup from 'reactjs-popup';
+import ProjectInfo from "./ProjectInfo.js"
 
 const Project2 = ({title, text, skills, img}) => {
 
@@ -6,7 +8,18 @@ const Project2 = ({title, text, skills, img}) => {
 
     return (
         <div className="row justify-content-center no-gutters">
-            <div className="col-lg-6"><img className="img-fluid" src={path} alt="..." /></div>
+            <div className="col-lg-6">
+                <Popup
+                    modal={true}
+                    trigger={<img 
+                        className="project-img mb-3 mb-lg-0" 
+                        src={path} 
+                        alt="..."></img>}
+                    className="project"
+                >
+                    <ProjectInfo />
+                </Popup>
+            </div>
                 <div className="col-lg-6 order-lg-first">
                     <div className="bg-black text-center h-100 project">
                         <div className="d-flex h-100">
