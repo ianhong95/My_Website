@@ -24,7 +24,7 @@ const FeaturedProject = ({ title, text, skills, img }) => {
                 <Popup
                     modal={true}
                     trigger={<img 
-                        className="project-img mb-3 mb-lg-0" 
+                        className="project-featured-img mb-3 mb-lg-0" 
                         src={path} 
                         alt="..."></img>}
                     className={fadeClass}
