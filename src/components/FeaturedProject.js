@@ -1,18 +1,35 @@
-import { React, PropTypes } from 'react'
+import { React, useState } from 'react'
 import Popup from 'reactjs-popup';
-import 'reactjs-popup/dist/index.css';
 import ProjectInfo from './ProjectInfo'
 
 const FeaturedProject = ({ title, text, skills, img }) => {
 
     var path = "assets/img/".concat(img);
 
+    const [fadeClass, setFadeClass] = useState("project")
+
+    const [active, setActive] = useState(true)
+
+    const onClose = () => {
+        if (active === false) {
+            setFadeClass("project-exit")
+        } else {
+            setFadeClass("project")
+        }
+    }
+
     return (
         <div className="row align-items-center no-gutters mb-4 mb-lg-5">
             <div className="col-xl-8 col-lg-7">
                 <Popup
-                    modal
-                    trigger={<img className="img-fluid mb-3 mb-lg-0" src={path} alt="..." />}>
+                    modal={true}
+                    trigger={<img 
+                        className="project-img mb-3 mb-lg-0" 
+                        src={path} 
+                        alt="..."></img>}
+                    className={fadeClass}
+                    onClose={onClose}
+                >
                     <ProjectInfo />
                 </Popup>
             </div>

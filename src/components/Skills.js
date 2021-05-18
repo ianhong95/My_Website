@@ -1,5 +1,9 @@
 import React from 'react'
 import SkillButton from './SkillButton'
+import Popup from 'reactjs-popup';
+import 'reactjs-popup/dist/index.css';
+import { useSpring, Spring, animated } from 'react-spring'
+import { useState } from 'react'
 
 const Skills = () => {
 
@@ -15,6 +19,7 @@ const Skills = () => {
 						<SkillButton 
 							text="CAD"
 							img="assets/img/rendered_grippers.png"
+							details="3D modelling, assemblies, drawings"
 						/>
 						<SkillButton 
 							text="CAE"
@@ -76,11 +81,17 @@ const Skills = () => {
 						/>		
 					</div>
 			</div>
-			<hr className="skill-hr"></hr>
-			<div className="skill-img-container">
-					<img className="skill-img" src={defaultImg} alt="..." id="skillBg" />
-			</div>
 			
+			<hr className="skill-hr"></hr>
+			<div className="skill-img-container" id="skill-img-container">
+
+				<img
+					className="skill-img" 
+					src={defaultImg} 
+					alt="..." 
+					id="skillBg"/>
+
+			</div>
 			<div className="vertical-spacer"></div>
 		</div>
 	)

@@ -1,9 +1,10 @@
 import React from 'react'
+import 'reactjs-popup/dist/index.css';
 
 const ProjectInfo = () => {
     return (
-        <div style={{color: "red"}}>
-            Is this working?
+        <div>
+            Insert project details here
         </div>
     )
 }
