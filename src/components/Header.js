@@ -41,9 +41,9 @@ const Header = () => {
                         to="about"
                         spy={true}
                         smooth={true}
-                        offset={-70}
+                        offset={-20}
                         duration={500}>
-            <a className="btn btn-primary js-scroll-trigger" href="#about">Get To Know Me</a>  
+            <a className="btn btn-primary">Get To Know Me</a>  
             </Link>
           </div>
         </div>

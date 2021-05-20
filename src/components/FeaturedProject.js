@@ -2,9 +2,9 @@ import { React, useState } from 'react'
 import Popup from 'reactjs-popup';
 import ProjectInfo from './ProjectInfo'
 
-const FeaturedProject = ({ title, text, skills, img }) => {
+const FeaturedProject = ({ title, intro, text, skills, display_img, imgs }) => {
 
-    var path = "assets/img/".concat(img);
+    var path = "assets/img/".concat(display_img);
 
     const [fadeClass, setFadeClass] = useState("project")
 
@@ -28,18 +28,22 @@ const FeaturedProject = ({ title, text, skills, img }) => {
                         src={path} 
                         alt="..."></img>}
                     className={fadeClass}
-                    onClose={onClose}
-                >
-                    <ProjectInfo />
+                    onClose={onClose} >
+
+                    <ProjectInfo
+                        title="Face-Following Camera"
+                        text={ text }
+                        imgs={ imgs } />
+                        
                 </Popup>
             </div>
             <div className="col-xl-4 col-lg-5">
                 <div className="featured-text text-center text-lg-left">
-                    <h4>{title}</h4>
-                    <p className="text-white-50 mb-0">{text}</p>
+                    <h4>{ title }</h4>
+                    <p className="text-white-50 mb-0">{ intro }</p>
                     <br></br>
                     <br></br>
-                    <p className="text-white-50 mb-0">{skills}</p>
+                    <p className="text-white-50 mb-0">{ skills }</p>
                 </div>
             </div>
         </div>
