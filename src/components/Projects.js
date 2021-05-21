@@ -19,7 +19,7 @@ const Projects = () => {
 				text="This was my first endeavor involving machine vision. The Raspberry Pi-controlled robot uses OpenCV to process images and detect faces using a Haar cascade classifier. Servo motors are then triggered through the I2C interface to attempt to align the camera with the face. Now I can be certain that I am always being spied on."
 				skills="Python, computer vision, SolidWorks, 3D printing"
 				display_img="cam_front.png"
-				imgs="assets/img/PiCam1.png"
+				imgs="/assets/img/PiCam1.png"
 			/>
 			{/* Project One Row*/}
 			<Project1 
@@ -28,7 +28,7 @@ const Projects = () => {
 				text="This enclosure isn't all just bright lights and pretty windows. It blocks out drafts and helps maintain a fairly constant temperature around the print, which is ideal for printing in materials such as PETG that require more heat than the traditional PLA. This also ensures that the infamous Canadian winters don't result in undesirable part cooling."
 				skills="SolidWorks, 3D printing"
 				display_img="3DPrinter1.jpg"
-				imgs="/assets/img/3DPrinter1.png"
+				imgs="/assets/img/3DPrinter1.jpg"
 			/>
 			{/* Project Two Row*/}
 			<Project2
