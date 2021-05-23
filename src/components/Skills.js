@@ -7,7 +7,7 @@ import { useState } from 'react'
 
 const Skills = () => {
 
-	const defaultImg = "assets/img/techbg.jpg"
+	const defaultImg = "assets/img/printed_piano.jpg"
 
 	return (
 		<div className="container">
@@ -18,66 +18,66 @@ const Skills = () => {
 					<div className="skills-container">
 						<SkillButton 
 							text="CAD"
-							img="assets/img/rendered_grippers.png"
+							img="assets/img/CAD.png"
 							details="3D modelling, assemblies, drawings"
 						/>
 						<SkillButton 
 							text="CAE"
-							img="assets/img/cam_front.png"
+							img="assets/img/CAE.png"
 						/>
 						<SkillButton
 							text="Mechanical Design"
-							img="assets/img/dark_tech_bg.png"
+							img="assets/img/HDD_Clock.jpg"
 						/>
 						<SkillButton
 							text="Manufacturing"
-							img="assets/img/dark_tech_bg.png"
+							img="assets/img/manufacturing.jpg"
 						/>
 						<SkillButton
 							text="GD&amp;T"
-							img="assets/img/dark_tech_bg.png"
+							img="assets/img/GDT.png"
 						/>	
 						<SkillButton
 							text="3D Printing"
-							img="assets/img/dark_tech_bg.png"
+							img="assets/img/3DPrinting2.jpg"
 						/>
 						<SkillButton
-							text="Manufacturing"
-							img="assets/img/dark_tech_bg.png"
+							text="Prototyping"
+							img="assets/img/car parts.jpg"
 						/>																																								
 					</div>
 					<div className="skills-container">
 						<SkillButton
 							text="Matlab"
-							img="assets/img/dark_tech_bg.png"
+							img="assets/img/matlab.png"
 						/>						
 						<SkillButton
 							text="Python"
-							img="assets/img/dark_tech_bg.png"
+							img="assets/img/PiCam1.png"
 						/>
 						<SkillButton
 							text="Excel VBA"
-							img="assets/img/dark_tech_bg.png"
+							img="assets/img/vba.png"
 						/>
 						<SkillButton
 							text="React.js"
-							img="assets/img/dark_tech_bg.png"
+							img="assets/img/website.png"
 						/>
 						<SkillButton
 							text="JavaScript"
-							img="assets/img/dark_tech_bg.png"
+							img="assets/img/javascript.png"
 						/>
 						<SkillButton
 							text="Computer Vision"
-							img="assets/img/dark_tech_bg.png"
+							img="assets/img/computer_vision.png"
 						/>
 						<SkillButton
 							text="Git"
-							img="assets/img/dark_tech_bg.png"
+							img="assets/img/git_logo.png"
 						/>
 						<SkillButton
 							text="HTML/CSS"
-							img="assets/img/dark_tech_bg.png"
+							img="assets/img/html-css.png"
 						/>		
 					</div>
 			</div>
