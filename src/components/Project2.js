@@ -7,12 +7,12 @@ const Project2 = ({ title, intro, text, skills, display_img, imgs }) => {
     var path = "assets/img/".concat(display_img)
 
     return (
-        <div className="row justify-content-center no-gutters">
-            <div className="col-lg-6">
+        <div className="project-card">
+            <div className="project-preview-img">
                 <Popup
                     modal={true}
                     trigger={<img 
-                        className="project-img mb-3 mb-lg-0" 
+                        className="project-img" 
                         src={path} 
                         alt="..."></img>}
                     className="project" >
@@ -24,7 +24,7 @@ const Project2 = ({ title, intro, text, skills, display_img, imgs }) => {
 
                 </Popup>
             </div>
-                <div className="col-lg-6 order-lg-first">
+                <div className="project-preview-text">
                     <div className="bg-black text-center h-100 project">
                         <div className="d-flex h-100">
                             <div className="project-text w-100 my-auto text-center text-lg-right">

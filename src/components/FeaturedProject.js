@@ -19,12 +19,12 @@ const FeaturedProject = ({ title, intro, text, skills, display_img, imgs }) => {
     }
 
     return (
-        <div className="row align-items-center no-gutters mb-4 mb-lg-5">
-            <div className="col-xl-8 col-lg-7">
+        <div className="project-card">
+            <div>
                 <Popup
                     modal={true}
                     trigger={<img 
-                        className="project-featured-img mb-3 mb-lg-0" 
+                        className="project-preview-img" 
                         src={path} 
                         alt="..."></img>}
                     className={fadeClass}
@@ -37,8 +37,8 @@ const FeaturedProject = ({ title, intro, text, skills, display_img, imgs }) => {
                         
                 </Popup>
             </div>
-            <div className="col-xl-4 col-lg-5">
-                <div className="featured-text text-center text-lg-left">
+            <div>
+                <div className="project-preview-text">
                     <h4>{ title }</h4>
                     <p className="text-white-50 mb-0">{ intro }</p>
                     <br></br>
