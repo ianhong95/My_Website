@@ -32,7 +32,9 @@ function App() {
         <Contact />
       </section>
 
+      <section className="section-container bg-dark">
         <Footer />
+      </section>
 
     </div>
   );
