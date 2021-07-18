@@ -9,31 +9,31 @@ import Footer from './components/Footer';
 function App() {
 
   return (
-    <div id='page-top'>
+    <div class='main' id='page-top'>
       <MenuBar />
 
       <header className="masthead">
         <Header />
       </header>
 
-      <section className="about-section text-center" id="about">
+      <section className="section-container" id="about">
         <About />
       </section>
 
-      <section className="skills-section text-center" id="skills">
+      <section className="section-container" id="skills">
         <Skills />
       </section>
       
-      <section className="projects-section bg-dark" id="projects">
+      <section className="section-container" id="projects">
         <Projects />
       </section>
 
-      <section className="contact-section bg-dark" id="contact">
+      <section className="section-container bg-dark" id="contact">
         <Contact />
       </section>
 
-      <Footer />
-        
+        <Footer />
+
     </div>
   );
 }
