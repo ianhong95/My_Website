@@ -29,8 +29,7 @@ const Project_Item = ({ title, intro, text, skills, display_img, imgs }) => {
                 <div className="project-preview-text">
                     <h4 className="text-white">{ title }</h4>
                     <p className="mb-0 text-white-50">{ intro }</p>
-                    <hr className="d-none d-lg-block mb-0 ml-0" />
-                    <br></br>
+                    <hr className="project-hr" />
                     <p className="mb-0 text-white-50">{ skills }</p>
                 </div>
             </div>

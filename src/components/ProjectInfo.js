@@ -12,10 +12,8 @@ const ProjectInfo = ({ title, text, imgs }) => {
                 <img className="project-detail-img" src={ imgs }></img>
             </div>
             <div className="project-detail-col-2">
-                <p className="project-detail-text text-white-50 mb-0">{text}</p>
-                <hr className="d-none d-lg-block mb-0 mr-0"/>
-            </div>
-            
+                <p className="project-detail-text text-white-50">{text}</p>
+            </div>    
         </div>
         </div>
     )
