@@ -5,7 +5,7 @@ const ProjectInfo = ({ title, text, imgs }) => {
     return (
         <div className="project-detail-main-container">
             <h4 className="project-detail-title">{ title }</h4>
-            <hr></hr>
+            {/* <hr></hr> */}
         
         <div className="project-detail-container">
             <div className="project-detail-col-1">

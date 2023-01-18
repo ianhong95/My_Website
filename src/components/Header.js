@@ -3,7 +3,7 @@ import { Link, animateScroll as scroll } from "react-scroll";
 
 const Header = () => {
 
-    var textBank = ["Mechanical Engineer-In-Training", "Tech enthusiast", "Hobby pianist"];
+    var textBank = ["Mechanical Engineer (P. Eng)", "Tech Enthusiast", "Casual Pianist"];
 
     const [fadeProp, setFadeProp] = useState({
         fade: 'fade-in',
@@ -37,13 +37,14 @@ const Header = () => {
             <h1 className="mx-auto my-0 text-uppercase">Ian Hong</h1>
             <h2 className={fadeProp.fade}>{ textBank[counter] }</h2>
             <Link
-                        activeClass="active" 
-                        to="about"
-                        spy={true}
-                        smooth={true}
-                        offset={-20}
-                        duration={500}>
-            <a className="btn btn-primary">Get To Know Me</a>  
+                activeClass="active" 
+                to="about"
+                spy={true}
+                smooth={true}
+                offset={-20}
+                duration={500}
+            >
+                <a className="btn btn-primary">Get To Know Me</a>  
             </Link>
           </div>
         </div>

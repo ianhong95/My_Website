@@ -9,7 +9,7 @@ const Project_Item = ({ title, intro, text, skills, display_img, imgs }) => {
     return (
 
         <div className="project-card">
-            <div className="project-preview-img">
+            {/* <div className="project-preview-img"> */}
                 <Popup
                     modal={true}
                     trigger={<img 
@@ -24,7 +24,7 @@ const Project_Item = ({ title, intro, text, skills, display_img, imgs }) => {
                         imgs={ imgs } />
 
                 </Popup>
-            </div>
+            {/* </div> */}
             <div className="project-preview-text">
                 <div className="project-preview-text">
                     <h4 className="text-white">{ title }</h4>
