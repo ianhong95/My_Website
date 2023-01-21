@@ -16,14 +16,14 @@ const Projects = () => {
 					intro="Browser-based interface for controlling the smart devices around the house."
 					text="Inspired by Google Home, I designed and built a web UI for controlling smart devices such as lights and plugs. The application consists of one Docker container for the React JS frontend, and another container for the Python API to facilitate the communication between user input, the database, and the devices. This application is hosted locally on a Raspberry Pi 4B."
 					skills="HTML/CSS, React JS, Python, SQL, Linux, Docker"
-					display_img=""
-					imgs=""
+					display_img="control_panel_2.PNG"
+					imgs="/assets/img/control_panel.PNG"
 				/>
 
 				<Project_Item 
 					title="Vacuum Gripper [2022]"
 					intro="A simple yet powerful suction gripper that can be used for a wide range of applications!"
-					text="This suction gripper consists of a special silicone suction cup in a 3D-printed housing, and runs off a 12V DC vacuum pump. The suction is controlled using a 2-way 3-port solenoid valve, which in turn is controlled using a NodeMCU. A function was written in Python to send GET requests to the NodeMCU's web server to activate/deactivate the vacuum pump and open/close the solenoid's exhaust port."
+					text="This suction gripper consists of a special silicone suction cup in a 3D-printed housing, and runs off a 12V DC vacuum pump. The suction is controlled using a 2-way 3-port solenoid valve, which in turn is controlled using a NodeMCU microcontroller. A function was written in Python to send GET requests to the NodeMCU's web server to activate/deactivate the vacuum pump and open/close the solenoid's exhaust port. TLDR; it sucks."
 					skills="CAD (OnShape), 3D printing, pneumatics, circuits"
 					display_img="vacuum_gripper_01.jpg"
 					imgs="/assets/img/vacuum_gripper_01.jpg"
@@ -32,7 +32,7 @@ const Projects = () => {
 				<Project_Item
 					title="Parallel Gripper [2022]"
 					intro="A 3D-printed parallel gripper designed for industrial robotic arms with a standard mounting hole pattern."
-					text="This parallel gripper was modeled after OnRobot's 2FG7 gripper. It was used for prototyping robotic applications involving a 6-axis arm for a low-budget project. It uses a rack-and-pinion mechanism driven by an MG996R servo motor, and is controled via Wi-Fi by sending GET requests to a NodeMCU web server."
+					text="This parallel gripper was modeled after OnRobot's 2FG7 gripper. It was used for prototyping robotic applications involving a 6-axis arm for a low-budget project. It uses a rack-and-pinion mechanism driven by an MG996R servo motor, and is controlled via Wi-Fi by sending GET requests to a NodeMCU web server."
 					skills="CAD (OnShape), 3D printing, C++, Python"
 					display_img="parallel_gripper_01.jpg"
 					imgs="/assets/img/parallel_gripper_01.jpg"
@@ -42,8 +42,8 @@ const Projects = () => {
 					title="3D Printer Upgrades [Ongoing]"
 					intro="At what point does it stop being an Ender 3 Pro?"
 					text="Creality's Ender 3 series is the most popular 3D printer due to its low entry cost to the hobby. However, you do get what you pay for."
-					display_img=""
-					imgs=""
+					display_img="3D_Printer_Upgraded.jpg"
+					imgs="/assets/img/ender_3_pro_upgrade_list.png"
 				/>
 
 				<Project_Item
@@ -51,8 +51,8 @@ const Projects = () => {
 					intro="Various Raspberry Pi 4B enclosures to accommodate external hardware such as hard drives."
 					text="My collection of Raspberry Pis has grown, and it didn't feel right to have bare boards lying around. I designed custom cases for each application depending on what accessories or features are required for the Pi, such as HDD/SSD interfacing boards, mounting holes, or just cool PC-looking cases."
 					skills="CAD (OnShape), 3D printing"
-					display_img=""
-					imgs=""
+					display_img="rpi_case.PNG"
+					imgs="/assets/img/Rpi_Cases.png"
 				/>
 
 				<Project_Item

@@ -10549,6 +10549,9 @@ body {
 }
 
 /* Projects section */
+.project-img-anchor {
+  display: flex;
+}
 
 .projects-section {
   display: flex;

@@ -35,6 +35,7 @@ const Contact = () => {
                 </div>
             </div>
         </div>
+        <hr></hr>
         <div className="social d-flex justify-content-center">
             <a className="mx-2" href="https://linkedin.com/in/ianhong95" target="_blank"><i className="fab fa-linkedin fa-5x"></i></a>
             <a className="mx-2" href="https://github.com/ianhong95" target="_blank"><i className="fab fa-github fa-5x"></i></a>

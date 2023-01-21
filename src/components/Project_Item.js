@@ -9,13 +9,15 @@ const Project_Item = ({ title, intro, text, skills, display_img, imgs }) => {
     return (
 
         <div className="project-card">
-            {/* <div className="project-preview-img"> */}
                 <Popup
                     modal={true}
-                    trigger={<img 
+                    trigger={
+                        <img 
                         className="project-preview-img" 
                         src={ path } 
-                        alt="..."></img>}
+                        alt="..."
+                        ></img>
+                    }
                     className="project" >
 
                     <ProjectInfo
@@ -24,7 +26,6 @@ const Project_Item = ({ title, intro, text, skills, display_img, imgs }) => {
                         imgs={ imgs } />
 
                 </Popup>
-            {/* </div> */}
             <div className="project-preview-text">
                 <div className="project-preview-text">
                     <h4 className="text-white">{ title }</h4>

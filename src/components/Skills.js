@@ -1,9 +1,6 @@
 import React from 'react'
 import SkillButton from './SkillButton'
-import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
-import { useSpring, Spring, animated } from 'react-spring'
-import { useState } from 'react'
 
 const Skills = () => {
 
@@ -41,7 +38,7 @@ const Skills = () => {
 				/>
 				<SkillButton
 					text="Prototyping"
-					img="assets/img/car parts.jpg"
+					img="assets/img/robot_picking.PNG"
 				/>
 				<SkillButton
 					text="Matlab"
@@ -62,10 +59,6 @@ const Skills = () => {
 				<SkillButton
 					text="JavaScript"
 					img="assets/img/javascript.png"
-				/>
-				<SkillButton
-					text="Computer Vision"
-					img="assets/img/computer_vision.png"
 				/>
 				<SkillButton
 					text="Git"
